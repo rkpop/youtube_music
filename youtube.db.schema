@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS playlists (
+  `playlist_id` TEXT NOT NULL,
+  `name` TEXT NOT NULL,
+  `month` TEXT NOT NULL,
+  `year` INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS processed (
+  `uri` TEXT PRIMARY KEY
+);

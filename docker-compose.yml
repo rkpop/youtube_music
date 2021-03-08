@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  bot:
+    image: rkpop_youtube:1
+    build:
+      context: .
+      args:
+        DB_PATH: '/var/youtube/db/youtube.db'
+        HEADERS_PATH: '/var/youtube/headers_auth.json'
+    volumes:
+      - 'db_data:/var/youtube/db/'
+
+volumes:
+  db_data: {}

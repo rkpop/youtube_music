@@ -1,0 +1,4 @@
+headers_auth.json
+.DS_Store
+*.pyc
+youtube.db
