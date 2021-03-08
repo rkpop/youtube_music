@@ -1,2 +1,2 @@
 # Run the script every 15 minutes
-* * * * * root /usr/local/bin/python3 /var/youtube/script.py > /proc/1/fd/1 2>/proc/1/fd/2
+*/15 * * * * root /usr/local/bin/python3 /var/youtube/script.py > /proc/1/fd/1 2>/proc/1/fd/2
